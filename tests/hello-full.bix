@@ -1,12 +1,12 @@
 let a = 1;
 let b = "2";
 
-function bar(in) {
-    return in + 1;
+function bar(p) {
+    return p + 1;
 }
 
-function bax(in) {
-    return in + "1";
+function bax(p) {
+    return p + "1";
 }
 
 let qux = bar(a);
@@ -15,10 +15,10 @@ let qaz = bax(b);
 print(qux);
 print(qaz);
 
-function baz(in) {
+function baz(p) {
     let out = [];
     for (let i = 0; i < 10; i = i + 1) {
-        out[i] = in + i;
+        out[i] = p + i;
     }
     return out;
 }

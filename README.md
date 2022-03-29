@@ -1,6 +1,6 @@
 # Bix 
 
-Bix programming language
+Bix programming language. Trivial subset of Javascript, under construction.
 
 ## What For?
 

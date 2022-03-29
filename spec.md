@@ -109,7 +109,7 @@ name(42);
 ### Once you got a *Table*, you got a *Object* and a *Array*
 
 ```
-let a = [];
+let a = {};
 a[1] = 1;
 a["2"] = "2";
 a["3"] = {};

@@ -1,5 +1,8 @@
+use anyhow::Result;
 mod cli;
+mod vm;
+mod compiler;
 
-fn main() {
-    cli::run();
+fn main() -> Result<()> {
+    cli::run()
 }
